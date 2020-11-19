@@ -1,1 +1,1 @@
-# Geekbrais-Javascripts-basic
+# Geekbrais-Javascript-basic
