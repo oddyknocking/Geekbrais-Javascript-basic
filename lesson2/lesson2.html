@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+/* Задание 3 */
+<script>
+
+    let a = +prompt("Введи первое число");
+    let b = +prompt("Введи второе число");
+
+    function compare (a, b) {
+        if (a >= 0 && b >= 0) {
+            alert(a - b);
+        } else if (a < 0 && b < 0) {
+            alert(a * b);
+        } else {
+            alert(a + b);
+        }
+    }
+
+    compare (a, b);
+
+</script>
+/* Задание 4. Оно меня немного смутило, не думал, что и правда 15 раз нужно будет повторить код) */
+
+<script>
+    a = 11;
+
+    switch (a) {
+        case 0:
+            alert(a);
+            a++;
+        case 1:
+            alert(a);
+            a++;
+        case 2:
+            alert(a);
+            a++;
+        case 3:
+            alert(a);
+            a++;
+        case 4:
+            alert(a);
+            a++;
+        case 5:
+            alert(a);
+            a++;
+        case 6:
+            alert(a);
+            a++;
+        case 7:
+            alert(a);
+            a++;
+        case 8:
+            alert(a);
+            a++;
+        case 9:
+            alert(a);
+            a++;
+        case 10:
+            alert(a);
+            a++;
+        case 11:
+            alert(a);
+            a++;
+        case 12:
+            alert(a);
+            a++;
+        case 13:
+            alert(a);
+            a++;
+        case 14:
+            alert(a);
+            a++;
+        case 15:
+            alert(a);
+            a++;
+    }
+</script>
+
+/* Задание 5-7 */
+
+
+<script>
+
+    function sum (a, b) {
+        return a + b;
+    }
+
+    function divide (a, b) {
+        return a/b;
+    }
+
+    function multiply (a, b) {
+        return a * b;
+    }
+
+    function subtraction (a, b) {
+        return a + b;
+    }
+
+    function mathOperation (arg1, arg2, operation) {
+        switch (operation) {
+            case sum:
+                return sum(arg1, arg2);
+                break;
+            case divide:
+                return divide(arg1, arg2);
+                break;
+            case multiply:
+                return multiply(arg1, arg2);
+                break;
+            case subtraction:
+                return subtraction(arg1, arg2);
+                break;
+        }
+    }
+
+    alert(mathOperation(12, 11, multiply));
+
+</script>
+
+/* Задание 7. Выходит, что 0 не равен null. Онои верно, ведь "0" это просто числовое обозначение нуля, это полноценное значение.
+A "null" специальное значение и оно означает "ничто". Это указание компьютеру, что объекта не существует.  */
+
+<script>
+    let a = null;
+
+    function compare () {
+        if (a == 0) {
+            alert('Привет! 0 равен null');
+        } else if (a != 0){
+            alert('Хэллоу! 0 не равен null')
+        }
+    }
+
+    compare();
+</script>
+
+/* Задание 8 */
+<script>
+
+    function power(val, pow) {
+        return val ** pow;
+    }
+
+    alert(power(2, 2));
+</script>
+
+</body>
+</html>

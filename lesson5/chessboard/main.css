@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chessboard {
+    position: absolute;
+    width: 600px;
+    height: 600px;
+    background-color: #606060;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    left: 50px;
+}
+
+.chessplate-black {
+    height: 100%;
+    width: 12.5%;
+    background-color: black;
+    display: block;
+}
+
+.chessplate-white {
+    height: 100%;
+    width: 12.5%;
+    background-color: navajowhite;
+    display: block;
+}
+
+.chessrow {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 12.5%;
+}
+
+button {
+    margin: 300px auto;
+}
+
+.chess {
+    width: 700px;
+    height: 700px;
+    margin: 200px auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+.num{
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75px;
+    height: 75px;
+}
+
+.letter{
+    width: 75px;
+    height: 50px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.letter_row{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
